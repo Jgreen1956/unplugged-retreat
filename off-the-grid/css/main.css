@@ -1,0 +1,106 @@
+
+ 
+head
+body{ 
+font-family: 'Open Sans', sans-serif;
+.parent-container {
+display:flex;
+max-width:765px }
+
+}
+header{
+  padding:20px;
+   text-align:left;
+   max-width: 100%;
+   width: 100%;
+   background-color: rgb(205, 240, 245); 
+}
+
+header img{
+   background: gray;
+   max-width: 200px;
+   
+   nav{
+      position: sticky;
+      top: 125px;
+      display:flex;
+      justify-content: right;
+      flex:left;
+   }
+
+   nav ul{
+      white-space:nowrap;
+      max-width: 250px;
+      margin: 0 auto;
+      
+   }
+   nav li{      
+      display: inline-block;
+      width: 50%;
+      font-size: 24px;
+   
+}
+header h1 {
+   font-size: 48px;
+   color: rgb(182, 131, 4);
+   
+}
+.banner {
+   position: relative;
+}
+   
+
+.banner img{
+   max-width: 675px;
+}
+
+.banner .welcome{
+   position:absolute;
+   padding:20px;
+   left: 60%;
+   top:20%;
+   color:goldenrod;
+   
+   }
+
+
+     
+   }
+
+
+h1 {
+   font-size: 48px;
+   
+}
+
+h2 {
+   font-size:40px;
+   font-family:'Poppins', sans-serif;
+   
+   
+}
+
+h3 {
+   font-size:22px;
+}
+
+h4 {
+   font-size: 20px;
+}
+
+p {
+   line-height: 24px;
+   font-size:19px;
+}
+
+body {
+  background: none;
+}
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) 
+	 {
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
+}
